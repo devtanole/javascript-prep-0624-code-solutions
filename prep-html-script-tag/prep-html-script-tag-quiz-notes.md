@@ -6,9 +6,6 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What tag is needed to load JavaScript scripts into an HTML document?
 
-- How do you use a script tag to write JavaScript directly in the HTML document?
-
-- How do you use a script tag to load an external JavaScript file?
 
 ## Notes
 
