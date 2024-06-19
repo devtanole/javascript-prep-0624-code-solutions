@@ -18,10 +18,11 @@ Answer the following questions in the provided markdown file before turning in t
   they represent text
 
 - What is the purpose of booleans in JavaScript?
-
+  true or false, conditional statements
 - What is the purpose of numbers in JavaScript?
-
+  represent integer and floating point values
 - What does `null` mean in JavaScript?
+  no or empty value
 
 ## Notes
 
