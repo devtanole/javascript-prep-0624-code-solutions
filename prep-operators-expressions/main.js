@@ -24,4 +24,6 @@ let isAcidic = pH < 7;
 console.log('value of isAcidic:', isAcidic);
 console.log('type of isAcidic:', typeof isAcidic);
 const numberOfSoldiers = 301;
-const isSparta = 300;
+let isSparta = numberOfSoldiers === 300;
+console.log('value of isSparta:', isSparta);
+console.log('type of isSparta:', typeof isSparta);
