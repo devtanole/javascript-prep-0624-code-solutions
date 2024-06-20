@@ -27,6 +27,7 @@ const numberOfSoldiers = 301;
 let isSparta = numberOfSoldiers === 300;
 console.log('value of isSparta:', isSparta);
 console.log('type of isSparta:', typeof isSparta);
-let nickname = fullName + ' is the GOAT';
+let nickname = fullName;
+nickname += ' is the GOAT';
 console.log('value of nickname:', nickname);
 console.log('type of nickname:', typeof nickname);
