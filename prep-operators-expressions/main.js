@@ -14,3 +14,8 @@ const final = 76;
 let grade = (tests + assignments + final) / 3;
 console.log('value of grade:', grade);
 console.log('type of grade:', typeof grade);
+const firstName = 'Devin';
+const lastName = ' Olesen';
+let fullName = 'Devin' + ' Olesen';
+console.log('value of fullName:', fullName);
+console.log('type of fullName:', typeof fullName);
