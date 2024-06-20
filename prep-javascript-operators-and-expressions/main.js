@@ -1,3 +1,5 @@
+const number1 = 2;
+const number2 = 4;
 let product = number1 * number2;
 console.log('value of product:', product);
 console.log('type of product:', typeof product);
