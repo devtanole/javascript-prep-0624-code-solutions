@@ -33,3 +33,14 @@ function getCircleCircumference(radius) {
 }
 const circumference = getCircleCircumference(4);
 console.log(circumference);
+function getFullName(firstName, lastName) {
+  const fullName = firstName + ' ' + lastName;
+  return fullName;
+}
+const dev = getFullName('Devin', 'Olesen');
+console.log(dev);
+function cube(number) {
+  return number * number * number;
+}
+const cubed = cube(3);
+console.log(cubed);
