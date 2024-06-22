@@ -13,3 +13,13 @@ function getGreeting(name) {
   console.log(getGreeting);
 }
 getGreeting('Devin');
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+const sumTimesFive = addAndMultiplyBy5(3, 7);
+console.log(sumTimesFive);
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+const productDividedByFive = multiplyAndDivideBy5(5, 6);
+console.log(productDividedByFive);
