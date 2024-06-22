@@ -23,3 +23,13 @@ function multiplyAndDivideBy5(num1, num2) {
 }
 const productDividedByFive = multiplyAndDivideBy5(5, 6);
 console.log(productDividedByFive);
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+const difference = subtractTwoNumbers(14, 9);
+console.log(difference);
+function getCircleCircumference(radius) {
+  return radius * (2 * 3.14);
+}
+const circumference = getCircleCircumference(4);
+console.log(circumference);
