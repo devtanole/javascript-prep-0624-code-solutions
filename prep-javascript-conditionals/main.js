@@ -54,3 +54,13 @@ function seasonMessenger(season) {
 }
 const seasonMessengerResult = seasonMessenger('winter');
 console.log(seasonMessengerResult);
+
+function dayDetector(dayOfTheWeek) {
+  if (dayOfTheWeek === 'saturday' || dayOfTheWeek === 'sunday') {
+    return 'have a good weekend';
+  } else {
+    return 'It is a weekday!';
+  }
+}
+const dayDetectorResult = dayDetector('friday');
+console.log(dayDetectorResult);
