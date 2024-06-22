@@ -18,5 +18,39 @@ function didStudentPass(score) {
   }
   return score >= 70;
 }
-const didStudentPassResult = didStudentPass(72);
+const didStudentPassResult = didStudentPass(69);
 console.log('the student passed:', didStudentPassResult);
+
+function gradeCalculator(score) {
+  if (score < 60) {
+    return 'F';
+  } else if (score < 70) {
+    return 'D';
+  } else if (score < 80) {
+    return 'C';
+  } else if (score < 90) {
+    return 'B';
+  } else if (score < 100) {
+    return 'A';
+  } else if (score > 100) {
+    return 'A++';
+  }
+}
+const gradeCalculatorResult = gradeCalculator(84);
+console.log(gradeCalculatorResult);
+
+function seasonMessenger(season) {
+  if (season === 'summer') {
+    return 'it is hot today';
+  } else if (season === 'spring') {
+    return 'the flowers are blooming';
+  } else if (season === 'autumn') {
+    return 'the leaves are changing colors';
+  } else if (season === 'winter') {
+    return 'it is cold today';
+  } else {
+    return 'please enter a valid season';
+  }
+}
+const seasonMessengerResult = seasonMessenger('winter');
+console.log(seasonMessengerResult);
