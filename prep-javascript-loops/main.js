@@ -16,3 +16,17 @@ while (whileLoop2 < 20) {
 }
 let whileLoop2Result = whileLoop2;
 console.log('numArray2 ', numArray2);
+
+function forLoop1() {
+  let numArray3 = [];
+  for (let index = 0; index < 10; index++) {
+    numArray3.push(index);
+    console.log(numArray3[index]);
+  }
+}
+let forLoop1Result = forLoop1();
+console.log('forLoop1Result', forLoop1Result);
+
+function forLoop2() {
+  let numArray4 = [];
+}
