@@ -1,32 +1,40 @@
-// create your loops here.
-let numArray = [];
-let whileLoop1 = 0;
-while (whileLoop1 < 10) {
-  numArray.push(whileLoop1);
-  whileLoop1++;
+function whileLoop1() {
+  const arrayToReturn = [];
+  let index = 0;
+  while (index < 10) {
+    arrayToReturn.push(index);
+    index++;
+  }
+  return arrayToReturn;
 }
-let whileLoop1Result = whileLoop1;
-console.log('numArray ', numArray);
 
-let numArray2 = [];
-let whileLoop2 = 0;
-while (whileLoop2 < 20) {
-  numArray2.push(whileLoop2);
-  whileLoop2 += 2;
+console.log('whileLoop1Result', whileLoop1());
+
+function whileLoop2() {
+  const arrayToReturn = [];
+  let index = 0;
+  while (index < 20) {
+    arrayToReturn.push(index);
+    index += 2;
+  }
+  return arrayToReturn;
 }
-let whileLoop2Result = whileLoop2;
-console.log('numArray2 ', numArray2);
+
+console.log('whileLoop2Result', whileLoop2());
 
 function forLoop1() {
-  let numArray3 = [];
+  const arrayToReturn = [];
   for (let index = 0; index < 10; index++) {
-    numArray3.push(index);
-    console.log(numArray3[index]);
+    arrayToReturn.push(index);
   }
+  return arrayToReturn;
 }
-let forLoop1Result = forLoop1();
-console.log('forLoop1Result', forLoop1Result);
+
+console.log('forLoop1Result', forLoop1());
 
 function forLoop2() {
-  let numArray4 = [];
+  for (let index = 100; index > 0; index--) {
+    console.log('Time till explosion ' + index + '!');
+  }
 }
+forLoop2();
