@@ -38,3 +38,30 @@ function forLoop2() {
   }
 }
 forLoop2();
+
+const object = {
+  name: 'Ada Lovelace',
+  age: 'classic',
+  hobby: 'computation',
+  invention: 'analytical engine',
+};
+
+function forInLoop1(object) {
+  const arrayToReturn = [];
+  for (const key in object) {
+    arrayToReturn.push(key);
+  }
+  return arrayToReturn;
+}
+
+console.log('forInLoop1Result', forInLoop1(object));
+
+function forInLoop2(object) {
+  const arrayToReturn = [];
+  for (const key in object) {
+    arrayToReturn.push(object[key]);
+  }
+  return arrayToReturn;
+}
+
+console.log('forInLoop2Result', forInLoop2(object));
