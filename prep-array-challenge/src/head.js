@@ -21,5 +21,9 @@ function tail(array) {
   const input2 = [1, 2, 3, 4, 5];
   const input3 = ['false', 'true', 'false', 'true'];
   const input4 = [];
-  const find = [];
+  const newArr = [];
+  for (let index = 1; index < array.length; index++) {
+    newArr.push(array[index]);
+  }
+  return newArr;
 }
