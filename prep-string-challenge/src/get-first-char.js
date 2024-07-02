@@ -52,3 +52,11 @@ function getWords(string) {
   let finish = gotten.split(' ');
   return finish;
 }
+
+function reverse(word) {
+  if (word === '') {
+    return '';
+  } else {
+    return reverse(word.substr(1)) + word.charAt(0);
+  }
+}
