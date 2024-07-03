@@ -23,9 +23,5 @@ function getValues(object) {
 }
 
 function toObject(keyValuePair) {
-  const kvp = [];
-  for (const key in object) {
-    kvp.push(object[object[key]]);
-  }
   return kvp;
 }
